@@ -17,14 +17,8 @@
 
 </head>
 
-<body class="hold-transition login-page">
-    <div class="login-box">
-        <div class="login-logo">
-            <a href="../../index2.html"><b>Admin</b>LTE</a>
-        </div>
-        
-        @yield('form')
-    </div>
+<body class="hold-transition login-page bg-dark" style="transform: translateY(-70px)">
+   @yield('container')
     <!-- script js-->
     <script src="{{ mix('js/app.js') }}"></script>
 

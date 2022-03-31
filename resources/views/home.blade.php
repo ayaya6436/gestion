@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -17,6 +17,34 @@
                     {{ __('You are logged in!') }}
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+@endsection --}}
+
+@extends("layouts.master")
+
+@section('content')
+<div class="row">
+    <div class="col-12 p-4">
+        <div class="joumbotron">
+            <h1 class="display-3">Bienvenue ,<strong>{{ userFullName() }}</strong></h1>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit hic nisi quidem quis <br>  
+                 adipisci laborum inventore reprehenderit voluptatem minus dolore, nostrum corrupti,
+                  perspiciatis molestias autem, quasi maxime provident aliquid omnis! <br>
+                </p>
+                <hr class="my-4">
+
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit hic nisi quidem quis <br>  
+                     adipisci laborum inventore reprehenderit voluptatem minus dolore, nostrum corrupti,
+                      perspiciatis molestias autem, quasi maxime provident aliquid omnis! <br>
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-primary btn-lg " role="button">lire d'avantage</a>
+                    </p>
+                    
         </div>
     </div>
 </div>
